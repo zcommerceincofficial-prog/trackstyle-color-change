@@ -1172,9 +1172,8 @@
   <script>
     function handleSubmit(e) {
       e.preventDefault();
-      // TODO: Replace with GHL webhook or email endpoint
-      document.getElementById('quoteForm').style.display = 'none';
-      document.getElementById('formSuccess').classList.add('show');
+      // TODO: Replace with GHL webhook or email endpoint before launch
+      window.location.href = 'thank-you.html';
     }
 
     function toggleFaq(el) {
