@@ -1068,30 +1068,6 @@
                   <label>Vehicle — Year / Make / Model <span class="req">*</span></label>
                   <input type="text" name="vehicle" placeholder="e.g. 2023 Camaro SS" required>
                 </div>
-                <div class="form-row">
-                  <div class="form-group">
-                    <label>Service</label>
-                    <select name="service">
-                      <option value="">Select...</option>
-                      <option>Full Color Change Wrap</option>
-                      <option>Partial / Accent Wrap</option>
-                      <option>Roof &amp; Hood</option>
-                      <option>Not sure yet</option>
-                    </select>
-                  </div>
-                  <div class="form-group">
-                    <label>Finish Interest</label>
-                    <select name="finish">
-                      <option value="">Select...</option>
-                      <option>Gloss</option>
-                      <option>Satin</option>
-                      <option>Matte</option>
-                      <option>Metallic</option>
-                      <option>Color-Shift / Chrome</option>
-                      <option>Not sure yet</option>
-                    </select>
-                  </div>
-                </div>
                 <div class="form-group">
                   <label>Anything else we should know?</label>
                   <textarea name="message" placeholder="Current color, specific idea, deadline, etc."></textarea>
@@ -1213,8 +1189,7 @@
         phone:        form.phone.value,
         email:        form.email.value,
         vehicle:      form.vehicle.value,
-        service:      form.service.value,
-        finish:       form.finish.value,
+ 
         message:      form.message.value,
         source:       'TrackStyle Color Change LP'
       };
